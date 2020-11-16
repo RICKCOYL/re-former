@@ -1,0 +1,18 @@
+<%= form_with(url: "/user", method: "GET") do |t| %>
+   <div>
+    <%= t.label :username %>
+    <%= t.text_field(:message) %>
+    </div>
+    <br>
+    <div>
+    <%= t.label :email %>
+    <%= t.email_field(:user) %>
+    </div>
+    <br>
+    <div>
+    <%= t.label :password %>
+    <%= t.password_field(:password) %>
+    </div>
+    
+    <%= t.submit("Submit") %>
+  <% end %>
