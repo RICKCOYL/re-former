@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # frozen_string_literal: true
 
+=======
+>>>>>>> f0437b5... add form field
 class CreateUsers < ActiveRecord::Migration[6.0]
   def change
     create_table :users do |t|
