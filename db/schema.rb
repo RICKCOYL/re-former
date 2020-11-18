@@ -9,7 +9,6 @@
 # migrations use external dependencies or application code.
 #
 # It's strongly recommended that you check this file into your version control system.
-# rubocop:disable Style/NumericLiterals
 
 ActiveRecord::Schema.define(version: 20_201_116_132_743) do
   create_table 'users', force: :cascade do |t|
@@ -20,4 +19,3 @@ ActiveRecord::Schema.define(version: 20_201_116_132_743) do
     t.datetime 'updated_at', precision: 6, null: false
   end
 end
-# rubocop:disable Style/NumericLiterals
